@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-oraclejdk8:slim
 
-ADD target/x-boot.jar /app.jar
+ADD target/xboot-1.0-SNAPSHOT.jar /app.jar
 RUN sh -c 'touch /app.jar'
 ENV JAVA_OPTS=""
 
