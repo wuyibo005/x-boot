@@ -43,7 +43,7 @@ spring:
       ddl-auto: none
   # Redis
   redis:
-    host: 127.0.0.1
+    host: 192.168.20.62
     password:
     # 数据库索引 默认0
     database: 0
